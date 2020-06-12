@@ -1,7 +1,7 @@
 devDependencies:
   svelte: 3.23.2
-  vite: 0.20.7
-  vite-plugin-svelte: 0.1.2_svelte@3.23.2
+  vite: 0.20.8
+  vite-plugin-svelte: 0.1.3_svelte@3.23.2+vite@0.20.8
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.10.1:
@@ -780,10 +780,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
-  /es-module-lexer/0.3.20:
+  /es-module-lexer/0.3.21:
     dev: true
     resolution:
-      integrity: sha512-kfB4R9F6FJ5Bgvxyk6W/u/a9cncXEGRyaD2UxyBhrF3+ty4qLzptgStLfe0J90o/qkSiiY0+yyzMcIIPvAOjIw==
+      integrity: sha512-nwMhXomqz/xmJzc7c53gTcNcbWdHIOFoBb7g8ZnFtVr5ZefAZZcbcz8Nsb0VU1xmNQGcztpfOlT0O2yLfKtTWg==
   /esbuild/0.4.14:
     dev: true
     hasBin: true
@@ -2124,16 +2124,18 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-  /vite-plugin-svelte/0.1.2_svelte@3.23.2:
+  /vite-plugin-svelte/0.1.3_svelte@3.23.2+vite@0.20.8:
     dependencies:
       rollup-plugin-svelte: 5.2.2_svelte@3.23.2
       svelte: 3.23.2
+      vite: 0.20.8
     dev: true
     peerDependencies:
       svelte: ^3.0.0
+      vite: ~0.20.8
     resolution:
-      integrity: sha512-UwhHDv6unVAULPxKj/VzfVGe7q86KMsBKcNexDX0Yz8t3ID5i4s7gIR5GVofL1zO5josSETkRq/+iQEMcCmKQg==
-  /vite/0.20.7:
+      integrity: sha512-VKFdV3obzR3Tb1gRYRpn1psybAzRd54XRZYhzKhIuYYCcHHzfF3kLZJDan7iDk7tsObrleJ/qa3rnOtEJR8aog==
+  /vite/0.20.8:
     dependencies:
       '@babel/parser': 7.10.2
       '@rollup/plugin-commonjs': 13.0.0_rollup@2.15.0
@@ -2149,7 +2151,7 @@ packages:
       clean-css: 4.2.3
       debug: 4.1.1
       dotenv: 8.2.0
-      es-module-lexer: 0.3.20
+      es-module-lexer: 0.3.21
       esbuild: 0.4.14
       etag: 1.8.1
       execa: 4.0.2
@@ -2187,7 +2189,7 @@ packages:
       node: '>=10.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-uAdq3o0JTJXeN4VjSZPe+QC6FC0mo0J7S3AppwDBxLZ9TlP9SzoBrJy9IY1IPFYw9Yho4iovt2Qb1RH7vhtr2A==
+      integrity: sha512-ZqsDaEKp/rUBLAkOtz+avjFKbOhb38ewesvQmgePg/Y9RcJhmWUqF0cUovFqHNeVamDCdQNLI/kdQMjXg9o87g==
   /vue/3.0.0-beta.14:
     dependencies:
       '@vue/compiler-dom': 3.0.0-beta.14
@@ -2241,5 +2243,5 @@ packages:
       integrity: sha512-faQrqNMzcPCHGVC2aaOINk13K+aaBDUPjGWl0teOXywElLjyVAB6Oe2jj62jHYtwsU49jXhScYbvPENK+6zAvQ==
 specifiers:
   svelte: ^3.23.2
-  vite: ~0.20.7
-  vite-plugin-svelte: ~0.1.2
+  vite: ~0.20.8
+  vite-plugin-svelte: ~0.1.3

@@ -5,10 +5,9 @@
     "dev": "vite",
     "build": "vite build"
   },
-  "dependencies": {},
   "devDependencies": {
     "svelte": "^3.23.2",
-    "vite": "~0.20.7",
-    "vite-plugin-svelte": "~0.1.2"
+    "vite": "~0.20.8",
+    "vite-plugin-svelte": "~0.1.3"
   }
 }
