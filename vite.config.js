@@ -4,7 +4,7 @@ import svelte from 'vite-plugin-svelte';
 /** @type {import('vite').UserConfig} */
 let config = {
   plugins: [
-    svelte(),
+    svelte({ immutable: true }),
   ],
 };
 
