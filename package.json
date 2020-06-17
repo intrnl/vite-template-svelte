@@ -8,6 +8,6 @@
   "devDependencies": {
     "svelte": "^3.23.2",
     "vite": "~0.20.8",
-    "vite-plugin-svelte": "~0.1.3"
+    "vite-plugin-svelte": "~0.1.4"
   }
 }
