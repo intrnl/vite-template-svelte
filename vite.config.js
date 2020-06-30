@@ -6,6 +6,7 @@ let config = {
   plugins: [
     svelte({ immutable: true }),
   ],
+  rollupDedupe: ['svelte'],
 };
 
 export default config;
