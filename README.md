@@ -1,6 +1,6 @@
 # Vite + Svelte template
 
-Project template to quickly build a web app powered by Svelte and built with Vite.
+Project template to quickly build a web app with Svelte and Vite.
 
 ## Getting started
 
