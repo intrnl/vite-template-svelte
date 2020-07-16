@@ -2,7 +2,10 @@
   import logo from './logo.svg';
 
   let count = 0;
-  let increment = () => count++;
+
+  function increment () {
+    count++;
+  }
 </script>
 
 <div class='app'>
