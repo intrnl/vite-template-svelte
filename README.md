@@ -5,8 +5,7 @@ Project template to quickly build a web app with Svelte and Vite.
 ## Getting started
 
 ```
-# Clone the repository
-git clone https://github.com/intrnl/vite-template-svelte.git svelte-app
+npx degit https://github.com/intrnl/vite-template-svelte.git svelte-app
 
 cd svelte-app
 
