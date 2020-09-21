@@ -6,7 +6,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "svelte": "^3.24.1",
+    "svelte": "^3.25.1",
     "vite": "^1.0.0-rc.4",
     "vite-plugin-svelte": "^2.4.1"
   }
