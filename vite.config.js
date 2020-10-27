@@ -1,10 +1,14 @@
-import svelte from 'vite-plugin-svelte';
+import { svelte } from 'vite-plugin-svelte';
 
 
 /** @type {import('vite').UserConfig} */
 let config = {
   plugins: [
-    svelte({ immutable: true }),
+    svelte({
+      compilerOptions: {
+        immutable: true,
+      },
+    }),
   ],
   rollupDedupe: ['svelte'],
 };
