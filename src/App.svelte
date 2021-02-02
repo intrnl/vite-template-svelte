@@ -8,3 +8,10 @@
 <button on:click={decrement}>-</button>
 <span>{count}</span>
 <button on:click={increment}>+</button>
+
+<style>
+	span {
+		color: red;
+		font-weight: bold;
+	}
+</style>
